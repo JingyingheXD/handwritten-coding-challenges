@@ -1,0 +1,12 @@
+How would you implement the addition of two huge numbers that exceed the range of the Number type?
+Note that since these two numbers exceed the range of the Number type, they cannot be stored as numbers. Instead, we choose to store them as strings.
+
+1. padding the short number with 0
+2. sum each number with a carried property, and don't forget to check the carried property finally
+
+Note:
+1. string --> number: Number("321"), OR +"234"
+   number --> string: 321.toString()
+2. use a pointer to indicate the bit in these two strings, and pad "0" when there is no such a bit
+3. a.unshift()
+4. a.join['']
