@@ -1,0 +1,3 @@
+Write a function that implements the functionality of Function.prototype.bind().
+
+1. differences between call(), apply() and bind()
