@@ -1,0 +1,7 @@
+Implement the functionality of adding two numbers without using the built-in arithmetic operations of the programming language.
+
+1. the steps for adding (binary or decimals)：
+  a. get the bit results. Using XOR^ in binary
+  b. get the carry character. Using AND& in binary
+  c. recursively call the function itself until one property is zero, like repeating (a+b)
+2. AND&, OR|, NOT~, XOR^, left shift<<, right shift>>
