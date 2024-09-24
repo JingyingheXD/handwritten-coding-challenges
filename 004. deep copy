@@ -1,0 +1,6 @@
+Implement written deep copy.
+
+1. recursively copy deeply
+2. typeof
+3. Array.isArray(a)
+4. Object.keys(o)
