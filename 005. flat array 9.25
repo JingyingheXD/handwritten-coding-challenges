@@ -1,0 +1,14 @@
+Creates a new array with all sub-array elements concatenated into it recursively up to the specified depth.
+
+Steps:
+1. get the first element in the current array
+2. if it's an array, recursively call the function;
+   if it isn't an array, append it to the original array
+3. recursively put the left elements to the function and append them to the original array
+
+Notes:
+1. instanceof
+2. how to flatten an array in specific depth?
+  a. check if n is 0
+  b. when it relates to go deeper of the array, the parameter should be n-1
+  c. when put the left elements to the function, the parameter should be n
