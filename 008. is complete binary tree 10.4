@@ -1,0 +1,10 @@
+Check if a tree is a complete binary tree
+
+1. Complete binary tree: Every level, except possibly the last, is completely filled, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.
+2. steps:
+  a. Check if the root is null. If it's null, return true
+  b. Traverse the tree. If the current node is not null, push its left child and right child to the queue. Then pop out a node from the queue, and make it to the current node. Repeat the traversal until the current node is null.
+  c. Check if there are any nodes with value in the queue. If there are, it's not a complete binary tree.
+3. queue.filter(Boolean)
+  Boolean(falsyValue) = false
+  falsyValue: false, 0, '', null, undefined, NaN
