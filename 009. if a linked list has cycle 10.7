@@ -1,0 +1,6 @@
+check if a linked list has a cycle
+
+1. use two pointers. The fast pointer moves two nodes each time, and the slow pointer moves one node each time. If there is a cycle in the linked list, the fast pointer would be at the same node with the slow pointer.
+2. be careful:
+  a. check the input parameters first, the algorightm may return the result directly
+  b. there may be some null values, use ? to check it
