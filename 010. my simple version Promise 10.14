@@ -1,0 +1,12 @@
+Fulfill the simple version Promise
+
+1. 3 status: fulfilled, rejected, pending
+2. new Promise((resolve, reject) => {});
+    resolve & reject are functions
+3. how to use call() and bind() to bind this, and the differences between them
+4. "this" in the myPromise function means the instance object of the current function
+5. use handlers[] and errorHandlers[] to contain all then and catch functions
+    However, it's a simple version. It doesn't catch errors in the handlers[]. Also, it doesn't include the functions execution sequences for functions in the handlers[] and errorHandlers[]
+6. If there is a then() after catch(), it would still implement
+7. race() vs all()
+8. If resolve() is implemented, the promise status is fulfilled. If reject() is implemented, the promise status is rejected.
