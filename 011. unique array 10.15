@@ -1,0 +1,6 @@
+Unique array. Time complexity: O(nlogn), space complexity: O(1)
+
+1. two pointers. Compare two pointers, use slow pointer to represent the unique array
+2. sort(): time complexity: O(nlogn)
+3. slice()
+4. check start and end value in the slice()
