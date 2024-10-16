@@ -1,0 +1,4 @@
+Check if a string is another string's subsequence.
+
+1. two pointers. slow pointer moves only when there is the same char in another string
+2. think about the condition to end while loop, and the relations between slow pointer and string length
