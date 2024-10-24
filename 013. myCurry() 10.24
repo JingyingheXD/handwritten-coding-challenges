@@ -1,0 +1,7 @@
+write my curry()
+
+1. parameter is a function, return is a function
+2. need to check if the current accumulate parameters' length is equal to the fn's parameters' length
+  if not enough, recursively call the calc function
+  if yes, return fn with current parameters
+3. fucntion.length : get function parameters' length
