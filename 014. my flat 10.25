@@ -1,0 +1,4 @@
+1. parameters: array, depth; return an array in current depth
+2. check if the current element is an arrar
+  array: recursively call the flat function, and push the result array to current result array
+  number: push to the result array
