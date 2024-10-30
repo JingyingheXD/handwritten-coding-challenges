@@ -1,0 +1,4 @@
+1. debounce vs throttle
+  debounce: delays the execution of a function until a certain amount of time has passed since the last event's occurrence
+  throttle: limits the number of times a function is executed over a certain time period
+2. setTimeout returns the timerId, could use clearTimeout(timeId) to stop the timer
