@@ -1,0 +1,2 @@
+1. return value is a function
+2. reduce(callbackFn, initialValue)
