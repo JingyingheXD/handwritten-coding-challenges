@@ -1,0 +1,2 @@
+1. return an object. In this object, it returns itself
+2. el.style[property] = value
