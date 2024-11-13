@@ -1,0 +1,6 @@
+1. Map(), map.set(key, value), map.get(key), map.has(key)
+2. Set(), set.add(e)
+3. array.every()
+4. step:
+  a. create a map for the excludes, and use a set for all values
+  b. filter items with every function, when the item's key doesn't include the key, or if the item's key includes the key, but the corresponding value doesn't have the excludes value, return true
