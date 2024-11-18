@@ -1,0 +1,5 @@
+1. steps:
+  a. check each item in the items list one by one
+  b. swap the current item with the dismatch index to the correct place until the currect item is the correct one
+2. swap array items: 
+  [arr[0], arr[1]] = [arr[1], arr[0]];
