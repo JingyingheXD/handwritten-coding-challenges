@@ -1,0 +1,3 @@
+1. the return value of setTimeout() is a timeoutID
+2. a timeoutID value will never be reused by a subsequent call
+2. the timeout id is incremental, get the largest one by making one setTimeout call and down level to clear all
