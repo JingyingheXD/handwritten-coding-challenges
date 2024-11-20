@@ -1,0 +1,6 @@
+implement async helper - `race()`
+
+1. it's an async process
+2. steps:
+  a. set a flag to indicate if the function should run or not
+  b. run each callback function, and set the flag when it's done
