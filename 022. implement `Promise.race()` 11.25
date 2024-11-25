@@ -1,0 +1,2 @@
+1. return an promise instance
+2. run all promises asynchronously, the fastest one will run the resolve or reject functions to end the promise instance
