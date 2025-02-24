@@ -1,0 +1,6 @@
+1. recursively merge two arrays until the array list's left arrays become one array, and the right arrays become on array
+2. how to merge two array? write a new function to merge. Using two pointers in two arrays separately. Comparing the two item, and push the smaller one to the result array. Be carefult about the left items in one array.
+3. falt()
+4. sort((a, b ) => a - b)
+5. Math.floor: Math.floor(5.1) = 5, Math.floor(-5.1) = -6
+6. slice(a, b) is like [a, b)
