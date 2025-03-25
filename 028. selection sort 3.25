@@ -1,0 +1,6 @@
+1. retrieve the sub array, and record the minimum item
+2. always use the first item in the current sub array to store the minimum number
+3. swap the minimum item with the first item in the sub array
+
+Notes:
+1. swap items in an array: [arr[i], arr[currentMin]] = [arr[currentMin], arr[i]];
